@@ -108,6 +108,7 @@ input.submit-button:hover {
 
   section {
     margin: 1rem 3rem;
+    height: 90vh;
   }
 
   body {
@@ -116,5 +117,12 @@ input.submit-button:hover {
 
   .header {
     font-size: var(--font-size_title_mobile);
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .footer {
+    height: auto;
+    padding: 3rem 0;
   }
 }
