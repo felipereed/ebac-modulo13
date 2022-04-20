@@ -1,0 +1,17 @@
+:root {
+  --rich-black: #01161E;
+  --midnight-green: #124559;
+  --teal-blue: #598392;
+  --cambridge-blue: #AEC3B0;
+  --beige: #EFF6E0;
+  --white: #FFFFFF;
+
+  --font-family: 'Oswald', sans-serif;
+  --font-weight_title: 700;
+  --font-weight_subtitle: 500;
+  --font-weight_body: 300;
+
+  --font-size_title: 4rem;
+  --font-size_subtitle: 2.3rem;
+  --font-size_body: 2rem;
+}

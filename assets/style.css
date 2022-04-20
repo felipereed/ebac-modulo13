@@ -1,0 +1,88 @@
+@import url(./base/_variables.css);
+
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--beige);
+  line-height: 1.7;
+}
+
+html, body {
+  height: 100vh;
+}
+
+section {
+  margin: 3rem 20%;
+  font-size: var(--font-size_body);
+  font-weight: var(--font-weight_body);
+  height: 70vh;
+}
+
+.page {
+  height: 100vh;
+}
+
+.header {
+  font-size: var(--font-size_title);
+  background-color: var(--midnight-green);
+  color: var(--white);
+  text-align: center;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  font-size: var(--font-size_subtitle);
+  font-weight: var(--font-weight_subtitle);
+  color: var(--midnight-green);
+}
+
+.footer {
+  background-color: var(--midnight-green);
+  font-size: var(--font-size_body);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+}
+
+.button {
+  text-decoration: none;
+  background-color: var(--teal-blue);
+  color: var(--white);
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  font-size: var(--font-size_body);
+  font-weight: var(--font-weight_body);
+}
+
+a.button:hover {
+  background-color: var(--cambridge-blue);
+}
+
+.exercise-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.illustration {
+  max-height: 300px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+}
