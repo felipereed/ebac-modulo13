@@ -62,7 +62,7 @@ section {
   text-decoration: none;
   background-color: var(--teal-blue);
   color: var(--white);
-  padding: 2rem 4rem;
+  padding: 1rem 2rem;
   border-radius: 10px;
   font-size: var(--font-size_body);
   font-weight: var(--font-weight_body);
@@ -99,4 +99,22 @@ input.submit-button:hover {
 .nav-container {
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+  .illustration {
+    max-width: 450px;
+  }
+
+  section {
+    margin: 1rem 3rem;
+  }
+
+  body {
+    line-height: 1.5;
+  }
+
+  .header {
+    font-size: var(--font-size_title_mobile);
+  }
 }
