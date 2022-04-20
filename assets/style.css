@@ -68,8 +68,22 @@ section {
   font-weight: var(--font-weight_body);
 }
 
+.submit-button {
+  text-decoration: none;
+  background-color: var(--cambridge-blue);
+  color: var(--white);
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  font-size: var(--font-size_body);
+  font-weight: var(--font-weight_body);
+}
+
 a.button:hover {
   background-color: var(--cambridge-blue);
+}
+
+input.submit-button:hover {
+  background-color: var(--teal-blue);
 }
 
 .exercise-container {
